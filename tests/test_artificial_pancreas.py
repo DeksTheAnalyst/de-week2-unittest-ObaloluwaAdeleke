@@ -89,4 +89,4 @@ def test_non_numeric_input():
     with pytest.raises(TypeError):
         system.meal("forty")
 
-#python -m pytest tests\test_artificial_pancreas.py -v
+#python -m pytest tests\test_artificial_pancreas.py -v (use this to run tests in powershell terminal)
